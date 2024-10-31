@@ -1,0 +1,343 @@
+*{
+  margin: 0%;
+}
+ .navbar{
+  position: fixed;
+  width: 100%;
+}
+.logo{
+  width: 100px; 
+}
+@media (max-width:768px){
+  .green{
+    background-color: green;
+  }
+}
+
+.container-fluid{
+  background-color: rgb(247, 154, 131);
+  padding: 20px;
+  border-bottom: 3px solid white;
+ 
+}
+
+.navbar-nav a:hover{
+  text-decoration: underline;
+  color: white;
+}
+.txt{
+  margin-right: 40px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.icons a{
+  color: white;
+  font-size: 25px;
+}
+@media (max-width:768px){
+   .logo{
+    width: 73px;
+   }
+}
+.imgg{
+  width: 100%;
+  height: 700px;
+  background-image: url(first.webp);
+  background-size: cover;
+  background-position: center;
+  margin-top: 130px;
+  
+}
+.season{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: absolute;
+  top: 400px;
+  left: 170px;
+  font-size: 70px;
+}
+.btn{
+  width: 200px;
+  position: absolute;
+  top: 600px;
+  left: 165px;
+}
+@media (max-width:768px){
+  .imgg{
+   
+    background-image: url(first\ 768.webp);
+    background-position: center;
+    height: 1200px;
+    margin-top: 100px;
+  }
+  .season{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 950px;
+    left: 210px;
+    font-size: 60px;
+  }
+  .btn{
+    width: 200px;
+    position: absolute;
+    top: 1100px;
+    left: 265px;
+  }
+}
+@media (max-width: 528px) {
+  .season {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 60vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+  }
+  .btn {
+    width: 80%;
+    position: absolute;
+    top: 75vh;
+    left: 50%;
+    transform: translateX(-50%);
+  } 
+}
+@media (max-width: 529px){
+  .season{
+    position: absolute;
+    top:1000px ;
+  }
+  .btn{
+    position: absolute;
+    top: 1120px;
+    width: 200px;
+  }
+}
+@media (max-width: 320px) {
+  .season{
+    position: absolute;
+    top: 1000px;
+  }
+  .btn {
+    position: absolute;
+    top: 1120px;
+  }
+}
+.bg-img{
+  width: 100%;
+  height: 700px;
+  background-image: url(cherry\ dsktp.webp);
+  background-size: cover;
+  background-position: center;
+  margin-top: -10px;
+}
+.blur {
+position: absolute;
+top: 1000px;
+left: 380px;
+background-color: rgba(10, 91, 43, 0.8);
+width: 600px;
+padding: 50px;
+text-align: center;
+
+}
+.recipesbtn{
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color:rgba(10, 91, 43, 0.8) ;
+}
+@media (max-width:977px){
+  .box1{
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+    width: 550px;
+  }
+}
+@media (max-width:768px){
+  .bg-img{
+    background-image: url(cherrry\ phn.webp);
+  } 
+  .box1{
+    position: absolute;
+    top: 1550px;
+    left: 80px;
+    width: 500px;
+    height: 170px;
+    padding-top: 10px;
+  }
+}
+@media (max-width:629px){
+  .box1{
+    position: absolute;
+    top: 1550px;
+    left: 10px;
+    width: 500px;
+    height: 170px;
+    padding-top: 10px;
+  }
+  
+}
+@media (max-width:539px){
+  .box1{
+    position: absolute;
+    top: 1550px;
+    left: 10px;
+    width: 440px;
+    height: 160px;
+    padding-top: 10px;
+    font-size: 16px;
+  }
+  .recipesbtn{
+    margin-left: 10px;
+    margin-top: 1px;
+  }
+}
+@media (max-width:450px){
+  .box1{
+    position: absolute;
+    top: 1550px;
+    left: 30px;
+    width: 300px;
+    height: 160px;
+    padding-top: 10px;
+    font-size: 14px;
+  }
+  .recipesbtn{
+    margin-left: 60px;
+    margin-top: 1px;
+  }
+}
+@media (max-width:337px){
+  .box1{
+    position: absolute;
+    top: 1550px;
+    left:20px;
+    width: 250px;
+    height: 160px;
+    padding-top: 10px;
+    font-size: 12px;
+  }
+  .recipesbtn{
+    margin-left: 10px;
+    margin-top: 1px;
+    width: 100px;
+    font-size: 12px;
+  }
+}
+.bg-img1{
+  width: 100%;
+  height: 700px;
+  background-image: url(bottle\ desktp.webp);
+  background-size: cover;
+  background-position: center;
+  margin-top: -10px;
+}
+.blur1 {
+position: absolute;
+top: 1650px;
+left: 380px;
+background-color: rgba(10, 91, 43, 0.8);
+width: 600px;
+padding: 50px;
+
+}
+.findbtn{
+  margin-left: 200px;
+  margin-top: 20px;
+  background-color:rgba(10, 91, 43, 0.8) ;
+
+}
+@media (max-width:977px){
+  .box2{
+    position: absolute;
+    top: 1800px;
+    left: 100px;
+    width: 580px;
+    height: 230px;
+  }
+}
+@media (max-width:768px){
+  .bg-img1{
+    background-image: url(bottle\ phn.webp);
+  } 
+  .box2{
+    position: absolute;
+    top: 2250px;
+    left: 40px;
+    width: 545px;
+    height: 170px;
+    padding-top: 10px;
+  }
+  .findbtn{
+    margin-top: 1px;
+  }
+}
+@media (max-width:637px){
+  .box2{
+    position: absolute;
+    top: 2250px;
+    left: 10px;
+    width: 520px;
+    height: 150px;
+    padding-top: 10px;
+    font-size: 14px;
+  }
+  .findbtn{
+    margin-top: 1px;
+    margin-left: 140px;
+  }
+}
+@media (max-width:552px){
+  .box2{
+    position: absolute;
+    top: 2250px;
+    left: 8px;
+    width: 410px;
+    height: 150px;
+    padding-top: 10px;
+    font-size: 13px;
+  }
+  .findbtn{
+    margin-top: 1px;
+    margin-left: 100px;
+}
+}
+@media (max-width:428px){
+  .box2{
+    position: absolute;
+    top: 2250px;
+    left: 8px;
+    width: 320px;
+    height: 150px;
+    padding-top: 10px;
+    font-size: 13px;
+  }
+  .findbtn{
+    margin-top: 1px;
+    margin-left: 70px;
+    font-size: 13px;
+    width: 100px;
+}
+}
+@media (max-width:337px){
+  .box2{
+    position: absolute;
+    top: 2250px;
+    left: 8px;
+    width: 250px;
+    height: 150px;
+    padding-top: 10px;
+    font-size: 12px;
+  }
+  .findbtn{
+    margin-top: 1px;
+    margin-left: 30px;
+    font-size: 13px;
+    width: 100px;   
+}
+.box2 h1{
+  font-size: 19px;
+  
+}
+}
+
